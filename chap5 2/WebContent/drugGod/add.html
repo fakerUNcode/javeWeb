@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/add.css">	
+	<script src="js/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="js/star.js" ></script>
+	
+<body>
+<script>
+    // 检查用户是否登录
+    window.onload = function() {
+         if (session.getAttribute("username") == null) { 
+            window.location.href = "chap5/example/ex55/login.html";
+    };
+</script>
+
+	<form method="post" action="getMessage.jsp">
+		<div class="container">
+			<div class="interest-form-hd">
+				<h2>添加收藏：写短评</h2>
+			</div>
+			<div class="interest-status">
+				<input type="radio" name="interest" value="wish" checked="checked">
+				<span>想看</span>
+				<input type="radio" name="interest" value="over">
+				<span>看过</span>
+				<span>给个评价吧（可选）</span>
+				<div id="grade" class="fl">
+					<ul>
+				    	<li class="select" flag="star"></li>
+				        <li class="select" flag="star"></li>
+				        <li class="select" flag="star"></li>
+				        <li class="select" flag="star"></li>
+				        <li></li>
+				    </ul>
+				</div>
+				<input type="hidden" id="score" name="score" value="4"> <!-- 评分,默认4分-->
+			</div>
+			<div class="comment-area">
+				<span>简短评论：</span>
+				<textarea name="comment" class="comment" maxlength="350"></textarea>
+			</div>
+			<div class="interest-form-ft">
+				<span>分享到  豆瓣广播</span>
+				<input class="fr" type="submit" value="保存" >
+			</div>
+		</div>
+	</form>
+</body>
+</html>

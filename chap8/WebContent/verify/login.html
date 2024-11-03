@@ -1,0 +1,27 @@
+<html>
+<link href="main.css" rel="stylesheet" type="text/css" />
+<head>
+</head>
+  
+<body>
+	<fieldset>
+	 <form method="post" action="../login">
+		<legend>登录</legend>
+			<div>
+				<span>用户名</span>
+				<input type="text" id="user" name="username"/>  
+			</div>
+			<div>
+				<span>密码</span>
+				<input id="pwd" type="password" name="pwd"/>   <br>
+			</div>
+			<div>
+				<span>验证码</span>
+				<input id="code" type="text" name="vcode"/> 
+				<img src="/chap8/verify" onclick="this.src='../verify?'+Math.random()">
+			</div>
+			<div><input  type="submit" value="登录"></div>
+	 </form>
+	</fieldset>
+</body>
+</html>

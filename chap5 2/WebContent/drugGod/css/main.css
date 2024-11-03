@@ -1,0 +1,160 @@
+.container{
+	width:1150px;
+	margin: 30px 10px 10px  100px;
+}
+h1{
+	font-size: 40px;	
+    font-weight: bold;
+    color: #494949;
+    padding: 0 0 15px 0;
+    line-height: 1.1;
+}
+.Comments-hd{
+	margin:0px;
+	position: relative;
+}
+
+.commentTabs li{
+	display: inline-block;
+	font-size: 20px;
+	margin: 30px 46px 23px 0px;
+	border-bottom: 6px solid transparent;
+}
+
+.commentTabs li.active {
+    border-bottom-color: #777;
+}
+
+.commentTabs li a{
+	color:#338cc8;
+}
+
+.comment_btn{
+	display:inline-block;
+	color:#ca6445;
+	background:#fae9da;
+	border-radius:2px;
+	float:right;
+	line-height:13px;
+	padding:7px 12px;
+	margin: 30px 300px 23px 0px;
+	font-size: 20px;
+}
+
+.comment_btn:before{
+	content:'';
+	background:no-repeat url(../image/write.png) center/contain;
+	width:13px;
+	height:13px;
+	float:left;
+	margin-right:4px
+}
+
+.title_line{
+	border: 0.5px solid #ddd;
+	height: 0.5px;
+	position: absolute;
+	left:0;
+	bottom:22px;
+	width:940px;
+}
+
+.comments-sortby{
+	font-size: 20px;
+	position: relative;
+}
+
+.comments-sortby span{
+	margin-right:26px;
+}
+
+.comments-sortby a{
+	color:#338cc8;
+	margin-right:26px;
+}
+
+.comments-sortby .title_line{
+	border: 0.5px solid #ddd;
+	height: 0.5px;
+	position: absolute;
+	left:0;
+	bottom:-25px;
+	width:940px;
+}
+
+.comment-filter{
+	margin-top:40px;
+	position: relative;
+}
+
+.comment-filter label{
+	margin-right: 20px;
+	font-size: 18px;
+}
+
+.comment-filter .title_line{
+	border: 0.5px solid f8f8f8;
+	height: 0.5px;
+	position: absolute;
+	left:0;
+	bottom:-25px;
+	width:940px;
+}
+
+.mod-bd{
+	margin-top:50px;
+	width:940px;
+}
+
+.mod-bd .avatar{
+	margin-right: 15px;
+}
+
+.mod-bd .comment{
+	font-size: 20px;
+	margin:50px 0;
+}
+
+.mod-bd .comment-item{
+	position: relative;
+}
+
+.mod-bd .comment-time{
+	color:#b4bac3;
+}
+
+.mod-bd a{
+	color:#338cc8;
+}
+
+.vote{
+	display: inline-block;
+	width:60px;
+	font-size: 20px;
+	border:0;
+	background-color: white;
+	color:#338cc8;
+}
+.vote:hover{
+	color:#00479d;
+	cursor: pointer;
+}
+.vote:focus{  /*button*/
+	outline:0;
+}
+.vote_counts{
+	color:#515356;
+}
+.mod-bd p{
+	margin-top: 10px;
+	margin-left:5px;
+}
+
+.mod-bd .title_line{
+	border: 0.5px solid f8f8f8;
+	height: 0.5px;
+	position: absolute;
+	left:0;
+	bottom:-10px;
+	width:940px;
+}

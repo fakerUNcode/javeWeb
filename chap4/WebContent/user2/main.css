@@ -1,0 +1,25 @@
+body{
+	font-size:18px;
+}
+span{
+	display:inline-block;
+	width:180px;
+}
+em{
+	font-style:normal;
+	color:#000;
+	font-size:16px;
+}
+
+input{
+	border:1px solid #004082;
+	height:26px;
+	font-size:16px;
+	font-family:Microsoft Yahei;
+	margin:15px 0;
+}
+
+#reg{
+	width:180px;
+	text-align:center;
+}

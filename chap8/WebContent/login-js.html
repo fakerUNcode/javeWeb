@@ -1,0 +1,26 @@
+<html>
+<head>
+</head>
+<script src="jquery-1.10.1.min.js"></script>
+<script type="text/javascript">
+	$(function(){
+		
+		$("#login").click(function(){
+			var url = document.referrer;  //index.jsp,上一个页面的URL
+			var username = $("#user").val();
+			var pwd = $("#pwd1").val();
+			window.location.href="login?url="+url+"&username="+username+"&pwd="+pwd;
+		})
+	})
+</script>  
+<body>
+	<fieldset>
+		<legend>登录</legend>
+			<span>username：</span>
+			<input type="text" id="user" name="username"/>
+			<span>password：</span>
+			<input id="pwd1" type="password" name="pwd"/> 
+			<input  type="submit" id="login" value="登录">
+	</fieldset>
+</body>
+</html>

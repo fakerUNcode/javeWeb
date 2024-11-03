@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+fieldset{
+	width:260px;
+}
+span{
+	display:inline-block;
+	width:70px;
+}
+
+div{
+	width:200px;
+}
+
+#login{
+	display:inline-block;
+	width:100px;
+}

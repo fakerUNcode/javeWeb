@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	
+	<servlet>
+		<servlet-name>registe</servlet-name>
+		<servlet-class>web.RegisteServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>registe</servlet-name>
+		<url-pattern>/reg</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>list</servlet-name>
+		<servlet-class>tempmis.ListTempServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>list</servlet-name>
+		<url-pattern>/findall</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>add</servlet-name>
+		<servlet-class>tempmis.AddTempServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>add</servlet-name>
+		<url-pattern>/add</url-pattern>
+	</servlet-mapping>
+
+</web-app>

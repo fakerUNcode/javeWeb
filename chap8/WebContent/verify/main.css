@@ -1,0 +1,25 @@
+@CHARSET "UTF-8";
+fieldset{
+	width:360px;
+	border:0.5 px solid #000;
+}
+div{
+	width:360px;
+	height:30px;
+	margin-top:5px;
+}
+
+span{
+	display:inline-block;
+	width:70px;
+	height:30px;
+}
+input{
+	height:20px;
+}
+
+#login{
+	display:inline-block;
+	width:100px;
+}
+

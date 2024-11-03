@@ -1,0 +1,92 @@
+.container{
+	width:750px;
+	height: 310px;
+	margin: 10px 0 10px 10px;
+	border: 10px solid transparent;
+	border-color:#558C89;
+}
+
+.interest-form-hd{
+	height:60px;
+	background-color: #ebf5ea;
+	color:#007722;
+
+}
+
+.interest-form-hd h2{
+	line-height: 60px;
+	font-size: 22px;
+	padding-left: 40px;
+}
+
+.interest-status{
+	height: 60px;
+	font-size: 20px;
+	padding-left: 40px;
+	padding-top:20px;
+	position: relative;
+}
+
+.interest-status span{
+	margin-right: 15px;
+}
+
+.comment-area{
+	height: 85px;
+}
+
+.comment-area span{
+	font-size: 22px;
+	display: block;
+	margin-left: 40px;
+}
+
+.comment-area .comment{
+	margin-left: 40px;
+	width:690px;
+	height: 50px;
+	font-size:20px;
+}
+
+.interest-form-ft{
+	height:60px;
+	background-color: #e9eef2;
+	margin-top:10px;
+}
+
+.interest-form-ft span{
+	margin-left: 40px;
+	font-size: 20px;
+	color:#666;
+	line-height: 60px;
+}
+.interest-form-ft input{
+	width:80px;
+	height: 34px;
+	font-size: 20px;
+	margin-top:13px;
+	margin-right: 15px;
+}
+
+
+#grade{ 
+	width:135px;
+	height:28px;
+	margin:10px auto;
+	position: absolute;
+	left:380px;
+	top:10px;
+}
+
+#grade li{ 
+	width:27px;
+	height:28px;	
+	background:url(../image/star.gif) no-repeat 0 0; 
+	cursor:pointer;
+	list-style:none;
+	float:left;
+}
+
+#grade li.select{ 
+	background:url(../image/star.gif) no-repeat 0 -29px; 
+}

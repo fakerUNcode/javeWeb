@@ -1,0 +1,138 @@
+body {
+	font-family:"Î¢ÈíÑÅºÚ";
+	font-size: 12px;
+	cursor: default;
+	color: #404040;
+	margin: 0;
+	padding: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.head_container * {
+	margin: 0;
+	padding: 0;
+}
+
+.head_container a {
+	cursor: pointer;
+	text-decoration: none;
+	color: #000
+}
+
+.head_container a:hover {
+	text-decoration: underline
+}
+
+.head_container a:visited {
+	/*color: #000;*/
+}
+
+.head_container img {
+	border: 0;
+	display: inline;
+}
+
+.head_container h1, h2, h3, h4, h5, h6, h7 {
+	font-size: 12px;
+	font-weight: normal
+}
+
+/*¿ò¼ÜÑùÊ½*/
+.head_container {
+	width: 962px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+.head_welcome {
+	border: 1px solid #D4E8C6;
+	height: 21px;
+	line-height: 14px;
+	margin-bottom: 18px;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	width: 943px;
+	margin: 0 auto;
+	background: #f9faed;
+	padding-left: 15px;
+}
+
+.head_welcome {
+	font-size:14px;
+}
+
+.head_welcome a.b {
+	text-decoration: none;
+	font-size:14px;
+	color: #1a66b3;
+	font-family:"Î¢ÈíÑÅºÚ";
+} 
+
+.head_welcome a.b:visited {
+	text-decoration: none;
+	font-weight: bold;
+	color: #1a66b3;
+} 
+
+
+.head_welcome a.b:hover {
+	text-decoration: underline;
+	color: #1a66b3;
+}
+
+.head_welcome_right {
+	float: right;
+	width: 500px;
+	text-align: right;
+	padding-right: 5px;
+}
+
+.head_toutext {
+	height: 15px;
+	display: block;
+	width: 400px;
+	margin-top: 7px;
+}
+
+.head_icon_gouwuche {
+	width: 16px;
+	height: 11px;
+}
+
+.head_head_list {
+	border-bottom: 1px solid #D4E8C6;
+	border-left: 1px solid #D4E8C6;
+	border-right: 1px solid #D4E8C6;
+	height: 72px;
+	width: 958px;
+	margin: 0 auto;
+	background: url(../images/logo.jpg) no-repeat 0;
+	background-size: 20%;
+}
+
+.cart {
+	font-size:20px;
+	padding-left: 25px;
+	padding-right:15px;
+	height: 18px;
+	float: right;
+	margin-top: 3px;
+	padding-right: 3px;
+	line-height: 20px;
+	
+} 
+.cart a{
+	font-size:14px;
+	font-family:"Î¢ÈíÑÅºÚ";
+	color:#2B67B5;
+}
+
+.head_logo {
+	margin-left: 20px;
+	margin-top: 22px;
+	float: left;
+}
+
